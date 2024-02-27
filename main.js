@@ -11,7 +11,7 @@ class Animal {
 }
 
 class Cachorro extends Animal {
-    constructor(raca, nome, porte) {
+    constructor() {
         super(raca, nome, porte);
     }emitirSom() {
         console.log('Au au');
@@ -19,7 +19,7 @@ class Cachorro extends Animal {
 }
 
 class Gato extends Animal {
-    constructor(raca, nome, porte) {
+    constructor() {
         super(raca, nome, porte);
     }
     emitirSom() {
